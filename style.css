@@ -101,3 +101,11 @@ button:hover {
   background: rgba(247, 247, 226, 0.2);
   outline: none;
 }
+@media screen and (max-width: 600px) {
+  body {
+    transform: scale(0.7);
+  }
+  .rectangle {
+    min-height: 300px;
+  }
+}
